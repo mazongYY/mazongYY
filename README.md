@@ -4,20 +4,17 @@
   <img alt="Morning profile control plane" src="assets/hero-light.svg" width="100%">
 </picture>
 
-![profile](https://img.shields.io/badge/profile-mazongYY-00A7D1?style=flat-square&labelColor=102934) ![layers](https://img.shields.io/badge/layers-6-E84A8A?style=flat-square&labelColor=102934)
+![profile](https://img.shields.io/badge/profile-mazongYY-00A7D1?style=flat-square&labelColor=102934) ![layers](https://img.shields.io/badge/layers-3-E84A8A?style=flat-square&labelColor=102934)
 
-Building practical full-stack tools and Cloudflare-native infrastructure — from message bridges to wake-on-LAN and secure personal navigation\.
+全栈开发 · 实用开源工具。Building practical open tools — message bridges, file utilities, and desktop automation\.
 
 ## Flagship systems
 
 | Repository | Role | Purpose |
 | --- | --- | --- |
-| [`TeleBridge`](https://github.com/mazongYY/TeleBridge) ![stars](https://img.shields.io/github/stars/mazongYY/TeleBridge?style=flat-square&label=%E2%98%85) | BRIDGE | Personal Telegram account bridge with Docker, filtering, Feishu webhooks, and daily reports\. |
-| [`wol`](https://github.com/mazongYY/wol) ![stars](https://img.shields.io/github/stars/mazongYY/wol?style=flat-square&label=%E2%98%85) | WAKE | End-to-end Wake-on-LAN system with Cloudflare Worker API, Pages panel, and Android relay\. |
-| [`cf-nav`](https://github.com/mazongYY/cf-nav) ![stars](https://img.shields.io/github/stars/mazongYY/cf-nav?style=flat-square&label=%E2%98%85) | NAV | Single Cloudflare Pages app for secure DNS-synced navigation with TOTP and Passkey\. |
-| [`Codex-Memory`](https://github.com/mazongYY/Codex-Memory) ![stars](https://img.shields.io/github/stars/mazongYY/Codex-Memory?style=flat-square&label=%E2%98%85) | MEMORY | Local Markdown vault plus SQLite search for auditable Codex long-term memory\. |
-| [`FileMover`](https://github.com/mazongYY/FileMover) ![stars](https://img.shields.io/github/stars/mazongYY/FileMover?style=flat-square&label=%E2%98%85) | UTILITY | Cross-platform tool for intelligent filtering and sorting of files inside archives\. |
-| [`Hexo`](https://github.com/mazongYY/Hexo) ![stars](https://img.shields.io/github/stars/mazongYY/Hexo?style=flat-square&label=%E2%98%85) | PUBLISH | Morning's technical blog covering free cloud services, VPS, and developer tooling\. |
+| [`TeleBridge`](https://github.com/mazongYY/TeleBridge) ![stars](https://img.shields.io/github/stars/mazongYY/TeleBridge?style=flat-square&label=%E2%98%85) | BRIDGE | Telegram 个人号消息桥接转发器。支持 Docker 部署、来源过滤、飞书通知与日报。 |
+| [`FileMover`](https://github.com/mazongYY/FileMover) ![stars](https://img.shields.io/github/stars/mazongYY/FileMover?style=flat-square&label=%E2%98%85) | SORT | 现代化文件筛选与移动工具。支持 ZIP/RAR/7Z、关键字/正则匹配，跨平台。 |
+| [`Annual-Report-System`](https://github.com/mazongYY/Annual-Report-System) ![stars](https://img.shields.io/github/stars/mazongYY/Annual-Report-System?style=flat-square&label=%E2%98%85) | REPORT | 山西省企业年报自动化系统。PyQt5 \+ Web 自动化，批量导入与填写公示。 |
 
 ## Closed-loop architecture
 
@@ -30,32 +27,21 @@ Building practical full-stack tools and Cloudflare-native infrastructure — fro
 ## Module registry
 
 <details>
-<summary><strong>Edge infrastructure</strong> · 3 modules</summary>
+<summary><strong>Messaging</strong> · 1 modules</summary>
 
 | Module | Purpose |
 | --- | --- |
-| [`cf-nav`](https://github.com/mazongYY/cf-nav) | Secure nav site with Cloudflare DNS sync, D1, KV, and multi-factor auth\. |
-| [`wol`](https://github.com/mazongYY/wol) | Edge-controlled wake-on-LAN with Worker API and public UDP sender\. |
-| [`Hexo`](https://github.com/mazongYY/Hexo) | Hexo \+ Butterfly blog with Cloudflare Workers and Waline comments\. |
+| [`TeleBridge`](https://github.com/mazongYY/TeleBridge) | MTProto userbot 转发器 · 健康检查 · 飞书 Webhook · 日报汇总 |
 
 </details>
 
 <details>
-<summary><strong>Automation bridges</strong> · 2 modules</summary>
+<summary><strong>Desktop tools</strong> · 2 modules</summary>
 
 | Module | Purpose |
 | --- | --- |
-| [`TeleBridge`](https://github.com/mazongYY/TeleBridge) | MTProto userbot forwarder with health checks and daily summary reports\. |
-| [`FileMover`](https://github.com/mazongYY/FileMover) | Keyword and regex based archive filtering with modern desktop UI\. |
-
-</details>
-
-<details>
-<summary><strong>Agent systems</strong> · 1 modules</summary>
-
-| Module | Purpose |
-| --- | --- |
-| [`Codex-Memory`](https://github.com/mazongYY/Codex-Memory) | Markdown fact store, FTS index, and Git audit trail for Codex memory\. |
+| [`FileMover`](https://github.com/mazongYY/FileMover) | 关键字/正则筛选压缩包内文件 · 移动/复制/链接 · 深色现代 UI |
+| [`Annual-Report-System`](https://github.com/mazongYY/Annual-Report-System) | Excel 批量导入 · 自动登录填写 · 年报提交公示流程 |
 
 </details>
 
