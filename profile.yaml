@@ -1,0 +1,93 @@
+version: 1
+github:
+  username: mazongYY
+identity:
+  name: Morning
+  headline: EDGE SELF-HOST SYSTEMS
+  tagline: Building practical full-stack tools and Cloudflare-native infrastructure — from message bridges to wake-on-LAN and secure personal navigation.
+  location: Singapore · UTC+8
+theme:
+  preset: control-plane
+  primary: "#00A7D1"
+  secondary: "#E84A8A"
+links:
+  - label: GitHub
+    url: https://github.com/mazongYY
+  - label: Blog
+    url: https://168661.xyz
+  - label: Telegram
+    url: https://t.me/mazongYYY
+  - label: Email
+    url: mailto:3184876@qq.com
+layers:
+  - name: BRIDGE
+    project: TeleBridge
+    description: Telegram message bridge with Docker and Feishu alerts
+    tone: primary
+  - name: WAKE
+    project: wol
+    description: Wake-on-LAN control plane over Cloudflare edge
+    tone: primary
+  - name: NAV
+    project: cf-nav
+    description: Secure personal nav synced from Cloudflare DNS
+    tone: primary
+  - name: MEMORY
+    project: Codex-Memory
+    description: Local-first long-term memory for Codex agents
+    tone: primary
+  - name: PUBLISH
+    project: Hexo
+    description: Technical blog on free cloud and Cloudflare stack
+    tone: secondary
+  - name: SORT
+    project: FileMover
+    description: Smart archive filter and file classification tool
+    tone: secondary
+flagships:
+  - repo: TeleBridge
+    role: BRIDGE
+    description: Personal Telegram account bridge with Docker, filtering, Feishu webhooks, and daily reports.
+    tone: primary
+  - repo: wol
+    role: WAKE
+    description: End-to-end Wake-on-LAN system with Cloudflare Worker API, Pages panel, and Android relay.
+    tone: primary
+  - repo: cf-nav
+    role: NAV
+    description: Single Cloudflare Pages app for secure DNS-synced navigation with TOTP and Passkey.
+    tone: secondary
+  - repo: Codex-Memory
+    role: MEMORY
+    description: Local Markdown vault plus SQLite search for auditable Codex long-term memory.
+    tone: secondary
+  - repo: FileMover
+    role: UTILITY
+    description: Cross-platform tool for intelligent filtering and sorting of files inside archives.
+    tone: secondary
+  - repo: Hexo
+    role: PUBLISH
+    description: Morning's technical blog covering free cloud services, VPS, and developer tooling.
+    tone: secondary
+module_groups:
+  - name: Edge infrastructure
+    projects:
+      - repo: cf-nav
+        description: Secure nav site with Cloudflare DNS sync, D1, KV, and multi-factor auth.
+      - repo: wol
+        description: Edge-controlled wake-on-LAN with Worker API and public UDP sender.
+      - repo: Hexo
+        description: Hexo + Butterfly blog with Cloudflare Workers and Waline comments.
+  - name: Automation bridges
+    projects:
+      - repo: TeleBridge
+        description: MTProto userbot forwarder with health checks and daily summary reports.
+      - repo: FileMover
+        description: Keyword and regex based archive filtering with modern desktop UI.
+  - name: Agent systems
+    projects:
+      - repo: Codex-Memory
+        description: Markdown fact store, FTS index, and Git audit trail for Codex memory.
+settings:
+  show_stars: true
+  show_badges: true

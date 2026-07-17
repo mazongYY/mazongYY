@@ -1,47 +1,64 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img alt="Morning profile control plane" src="assets/hero-light.svg" width="100%">
+</picture>
 
-# 👋 欢迎来到我的 GitHub 主页！
+![profile](https://img.shields.io/badge/profile-mazongYY-00A7D1?style=flat-square&labelColor=102934) ![layers](https://img.shields.io/badge/layers-6-E84A8A?style=flat-square&labelColor=102934)
 
-### 我是 **mazongYY** - 全栈开发工程师
+Building practical full-stack tools and Cloudflare-native infrastructure — from message bridges to wake-on-LAN and secure personal navigation\.
 
-<p>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2000&pause=1000&color=00D9FF&center=true&width=600&lines=全栈开发工程师;Python+%7C+JavaScript+%7C+React;Docker+%7C+AWS+云服务;构建可扩展的解决方案" alt="打字效果" />
-</p>
+## Flagship systems
 
----
+| Repository | Role | Purpose |
+| --- | --- | --- |
+| [`TeleBridge`](https://github.com/mazongYY/TeleBridge) ![stars](https://img.shields.io/github/stars/mazongYY/TeleBridge?style=flat-square&label=%E2%98%85) | BRIDGE | Personal Telegram account bridge with Docker, filtering, Feishu webhooks, and daily reports\. |
+| [`wol`](https://github.com/mazongYY/wol) ![stars](https://img.shields.io/github/stars/mazongYY/wol?style=flat-square&label=%E2%98%85) | WAKE | End-to-end Wake-on-LAN system with Cloudflare Worker API, Pages panel, and Android relay\. |
+| [`cf-nav`](https://github.com/mazongYY/cf-nav) ![stars](https://img.shields.io/github/stars/mazongYY/cf-nav?style=flat-square&label=%E2%98%85) | NAV | Single Cloudflare Pages app for secure DNS-synced navigation with TOTP and Passkey\. |
+| [`Codex-Memory`](https://github.com/mazongYY/Codex-Memory) ![stars](https://img.shields.io/github/stars/mazongYY/Codex-Memory?style=flat-square&label=%E2%98%85) | MEMORY | Local Markdown vault plus SQLite search for auditable Codex long-term memory\. |
+| [`FileMover`](https://github.com/mazongYY/FileMover) ![stars](https://img.shields.io/github/stars/mazongYY/FileMover?style=flat-square&label=%E2%98%85) | UTILITY | Cross-platform tool for intelligent filtering and sorting of files inside archives\. |
+| [`Hexo`](https://github.com/mazongYY/Hexo) ![stars](https://img.shields.io/github/stars/mazongYY/Hexo?style=flat-square&label=%E2%98%85) | PUBLISH | Morning's technical blog covering free cloud services, VPS, and developer tooling\. |
 
-<p>
-  <img src="https://img.shields.io/badge/💼%20职位-全栈开发工程师-blue?style=for-the-badge" alt="职位" />
-  <img src="https://img.shields.io/badge/🌐%20博客-168661.xyz-green?style=for-the-badge" alt="博客" />
-  <img src="https://img.shields.io/badge/📚%20学习-新技术-yellow?style=for-the-badge" alt="学习" />
-</p>
+## Closed-loop architecture
 
-</div>
-<td>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/closed-loop-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/closed-loop-light.svg">
+  <img alt="Morning architecture map" src="assets/closed-loop-light.svg" width="100%">
+</picture>
 
-- 🚀 **全栈工程师**，热爱构建健壮的应用程序
-- 💻 精通 **前端** (React、JavaScript) 与 **后端** (Python)
-- ☁️ **云计算与 DevOps** 爱好者 (AWS、Docker)
-- 📖 持续学习，探索最新的技术趋势
-- 🤝 开放合作，热心参与开源项目
-- 🎨 追求优雅代码、最佳实践和创意解决方案
+## Module registry
 
-</td>
----
+<details>
+<summary><strong>Edge infrastructure</strong> · 3 modules</summary>
 
-## 📬 联系我
+| Module | Purpose |
+| --- | --- |
+| [`cf-nav`](https://github.com/mazongYY/cf-nav) | Secure nav site with Cloudflare DNS sync, D1, KV, and multi-factor auth\. |
+| [`wol`](https://github.com/mazongYY/wol) | Edge-controlled wake-on-LAN with Worker API and public UDP sender\. |
+| [`Hexo`](https://github.com/mazongYY/Hexo) | Hexo \+ Butterfly blog with Cloudflare Workers and Waline comments\. |
 
-<div align="center">
+</details>
 
-[![邮箱](https://img.shields.io/badge/邮箱-3184876@qq.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:3184876@qq.com)
-[![个人博客](https://img.shields.io/badge/博客-168661.xyz-FF6B6B?style=for-the-badge&logo=rss&logoColor=white)](https://168661.xyz)
-[![GitHub](https://img.shields.io/badge/GitHub-mazongYY-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mazongYY)
+<details>
+<summary><strong>Automation bridges</strong> · 2 modules</summary>
 
-**欢迎在合作、讨论或闲聊中与我取得联系！** 💬
+| Module | Purpose |
+| --- | --- |
+| [`TeleBridge`](https://github.com/mazongYY/TeleBridge) | MTProto userbot forwarder with health checks and daily summary reports\. |
+| [`FileMover`](https://github.com/mazongYY/FileMover) | Keyword and regex based archive filtering with modern desktop UI\. |
 
-</div>
----
+</details>
 
-**最后更新时间:** 2026年5月 | 由 mazongYY 用 ❤️ 创建
+<details>
+<summary><strong>Agent systems</strong> · 1 modules</summary>
 
-</div>
+| Module | Purpose |
+| --- | --- |
+| [`Codex-Memory`](https://github.com/mazongYY/Codex-Memory) | Markdown fact store, FTS index, and Git audit trail for Codex memory\. |
+
+</details>
+
+<p align="center"><a href="https://github.com/mazongYY">GitHub</a> · <a href="https://168661.xyz">Blog</a> · <a href="https://t.me/mazongYYY">Telegram</a> · <a href="mailto:3184876@qq.com">Email</a></p>
+
+<!-- Generated by profile-control-plane. Edit profile.yaml, not this file. -->
